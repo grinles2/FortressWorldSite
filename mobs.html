@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+        }
+
+        header {
+            background-color: #2a4b8d;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav {
+            width: 200px;
+            background-color: #2a4b8d;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            margin-left: 220px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .grid-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О Нас</a></li>
+            <li><a href="#">Мобы - Вы тут</a></li>
+            <li><a href="items.html">Вещи</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Мобы</h1>
+        </header>
+
+        <div class="grid">
+            <div class="grid-item">
+                <img src="photos/sheep.jpg" alt="Заряженная Овца">
+                <p>Заряженная Овца<br>
+                    Здоровье - 100
+                    Тип - Дружелюбный<br>
+                    Дроп: Много Еды, Шерсти, Сюжетная книга.<br>
+                    Спавниться в обычном мире</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/king.jpg" alt="Король">
+                <p>Король<br>
+                    Здоровье - 100
+                    Урон - 6.5<br>
+                    Дроп: Проклятые Монеты, Экскалибур, Корона Короля, Сюжетная книга.<br>
+                    Спавнит миньонов вокруг себя.<br>
+                    Спавниться в обычном мире</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/minion.jpg" alt="Миньон">
+                <p>Миньон<br>
+                    Здоровье - 10
+                    Урон - 2<br>
+                    Спавниться рядом с Королем</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/kuznec.jpg" alt="Кузнец">
+                <p>Кузнец<br>
+                    Здоровье - 200
+                    Урон - 6<br>
+                    Дроп: Проклятые Монеты, Вещи Демона, Сюжетная книга.<br>
+                    Спавниться в аду</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/knight.jpg" alt="Страж">
+                <p>Страж<br>
+                    Здоровье - 40
+                    Урон - 5<br>
+                    Дроп: Проклятые Монеты, Сабля.<br>
+                    Спавняться в Обычном Мире</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/miers.jpg" alt="Шахтер">
+                <p>Шахтеры. Бывают двух типов: Обычного мира и ада. С обоих падает "Кирка Шахтера".</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/poseidon.jpg" alt="Посейдон">
+                <p>Посейдон<br>
+                    Здоровье - 250
+                    Урон - 8<br>
+                    Дроп: Проклятые Монеты, Трезубец Посейдона, Сюжетная книга.<br>
+                    Спавниться В Океане</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/satana.jpg" alt="Сатана">
+                <p>Сатана<br>
+                    Здоровье - 250
+                    Урон - 9<br>
+                    Дроп: Проклятые Монеты, Топор Сатаны,Голова Сатаны, Золотые Яблоки, Сюжетная книга.<br>
+                    Спавниться в аду</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/kronos.jpg" alt="Кронос">
+                <p>Кронос<br>
+                    Здоровье - 250
+                    Урон - 8<br>
+                    Дроп: Проклятые Монеты, Коса КРоноса, Сюжетная книга.<br>
+                    Спавниться в аду</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/satanas_kids.jpg" alt="Дети Сатаны">
+                <p>Дети Сатаны<br>
+                    Здоровье - 250
+                    Урон - 8<br>
+                    Дроп: -<br>
+                    Спавняться в аду и Сатана призывает их</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/sterva.jpg" alt="Стервятник">
+                <p>Стервятник<br>
+                    Здоровье - 20
+                    Урон - 4<br>
+                    Дроп: Проклятые Монеты, Вещи Демона, Сюжетная книга.<br>
+                    Спавниться в обычном мире</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/keeper.jpg" alt="Хранитель Энда">
+                <p>Хранитель Энда<br>
+                    Здоровье - 250
+                    Урон - 10<br>
+                    Дроп: Сюжетная Книга, Тотем, Энд Кристал, Элитра, Золотые Яблоки. Алмазы, Голова Дракона, Рамка
+                    Портала, Монеты </p>
+                <br> Спавниться В Энде
+            </div>
+            <div class="grid-item">
+                <img src="photos/raider.jpg" alt="Рейдер">
+                <p>Рейдер<br>
+                    Здоровье - 30
+                    Урон - 3<br>
+                    Дроп: Проклятые Монеты, Вещи Демона, Сюжетная книга.<br>
+                    Спавниться в обычном мире</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/zevs.jpg" alt="Зевс">
+                <p>Зевс<br>
+                    Здоровье - 300
+                    Урон - 12<br>
+                    Дроп: Корона Зевса, Трезубец Зевса, Сюжетная Книга, Проклятые Монеты </p>
+                <br> Спавниться в Энде
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

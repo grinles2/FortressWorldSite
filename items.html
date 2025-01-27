@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Предметы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+        }
+
+        header {
+            background-color: #2a4b8d;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav {
+            width: 200px;
+            background-color: #2a4b8d;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            margin-left: 220px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .grid-item {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О Нас</a></li>
+            <li><a href="mobs.html">Мобы</a></li>
+            <li><a href="faq">FAQ</a></li>
+            <li><a href="items.html">Предметы - Вы тут</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Предметы</h1>
+        </header>
+
+        <div class="grid">
+            <div class="grid-item">
+                <img src="photos/cursed_coin.png" alt="Проклятая Монета">
+                <p>Проклятая Монета. Валюта сервера, выпадает с боссов</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/admins_sword.png" alt="Катана Админа">
+                <p>Катана Админа. Уникальный Меч только у Владельца</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/anticheater.png" alt="Анти-Читер">
+                <p>Анти-Читер. Легендарная Палочка на откидывание</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/saber.png" alt="Сабля">
+                <p>Cабля. Падает с Стража</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/excalibur.png" alt="Экскалибур">
+                <p>Экскалибур. Падает с Короля</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/miners_pickaxe.png" alt="Кирка Шахтера">
+                <p>Кирка Шахтера. Падает с шахтеров</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/storytelling.png" alt="Сюжетная Книга">
+                <p>Сюжетная Книга. У каждого моба своя сюжетная линия, которая описана в книге</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/demons_axe.png" alt="Демонский Топор">
+                <p>Демонский Топор. Падает с кузнеца</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/demons_sword.png" alt="Демонский Меч">
+                <p>Демонский Меч. Падает с кузнеца</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/demons_shovel.png" alt="Демонская Лопата">
+                <p>Демонская Лопата. Падает с кузнеца</p>
+            </div>
+            <div class="grid-item">
+                <img src="photos/kronos_hoe.png" alt="Коса Кроноса">
+                <p>Коса Кроноса. Падает с Кроноса</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

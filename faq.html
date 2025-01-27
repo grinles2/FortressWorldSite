@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+        }
+
+        header {
+            background-color: #2a4b8d;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        .sidebar {
+            background-color: #2a4b8d;
+            color: white;
+            width: 250px;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar nav ul li {
+            margin: 15px 0;
+        }
+
+        .sidebar nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .sidebar nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+        }
+
+        .banner {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .banner img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .paragraphs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .paragraph {
+            flex: 1 1 calc(33.333% - 20px);
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .paragraph p {
+            margin: 0;
+        }
+
+        footer {
+            background-color: #dfe4ea;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            border-top: 1px solid #ccc;
+        }
+
+        footer a {
+            color: #2a4b8d;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about_us.html">О Нас </a></li>
+                <li><a href="mobs.html">Мобы</a></li>
+                <li><a href="items.html">Вещи</a></li>
+                <li><a href="#.html">FAQ - Вы тут </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>FAQ</h1>
+        </header>
+
+        <div class="banner">
+            <img src="photos/server-banner.png" alt="Server Banner">
+        </div>
+
+        <div class="paragraphs">
+            <div class="paragraph">
+                <p>Как зайти на сервер? Очень Просто подайте заявку на проходку в нашем дискорд канале и дождитесь своей
+                    очереди</p>
+            </div>
+            <div class="paragraph">
+                <p>Где добыть проклятые монеты? Убивая Боссов</p>
+            </div>
+            <div class="paragraph">
+                <p>У меня не работает ресурспак что делать? Скачайте Оптифан или если играете с фабрика Sodium + CIT
+                    resewn</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
